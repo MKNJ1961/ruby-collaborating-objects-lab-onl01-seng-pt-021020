@@ -2,9 +2,9 @@ class Song
 
   # @@all = []
   #
-  # def self.all
-  #   @@all
-  # end
+  def self.all
+    @@all
+  end
 
   attr_accessor :name, :artist
 
