@@ -12,7 +12,7 @@ class Song
     song.artist = Artist.find_or_create_by_name(split_filename[0])
     song
   end
-end 
+end
 
 #
 # class Song
