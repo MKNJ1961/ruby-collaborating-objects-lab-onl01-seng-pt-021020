@@ -11,7 +11,7 @@ class Artist
     artist = data.split(" - ")[0].strip
     Artist.find_or_create_by_name(artist)
   end
-  
+
    def self.find_or_create_by_name(name)
     artist = @@all.find{|artist| artist.name == name}
     !!artist ? artist : Artist.new(name)
