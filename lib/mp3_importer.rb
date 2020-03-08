@@ -4,6 +4,7 @@ class MP3Importer
 
   def initialize(path)
     @path = path
+    @files = Dir["glob/**/*.rb"]
 
   end
 
