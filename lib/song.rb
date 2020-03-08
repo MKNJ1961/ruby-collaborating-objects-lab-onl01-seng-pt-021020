@@ -1,6 +1,6 @@
 class Song
 
-  # @@all = []
+  @@all = []
   #
   def self.all
     @@all
