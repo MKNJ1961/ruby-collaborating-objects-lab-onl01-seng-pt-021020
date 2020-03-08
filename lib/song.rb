@@ -4,7 +4,7 @@ class Song
    data = file.split("/").last
    name = data.split(" - ")[1]
    song = Song.new(name)
-   artist = Artist.new_by_filename(file)
+   artist = Artist.new_by_filename()
    song.artist = artist
    song
  end
